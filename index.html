@@ -16816,18 +16816,80 @@
             </div>
         </div>
 
-        <article class="banner _pp" data-ppb-rev="v1.0">
-            <div class="ctt-w">
-                <p class="ctt">يستخدم هذا الموقع ملفات تعريف الارتباط. لمزيد من المعلومات حول كيفية استخدامنا لملفات تعريف الارتباط ، يمكنك قراءة إشعار الخصوصية وملفات تعريف الارتباط الخاص بنا.&nbsp;<a class="_more -fs12" href="https://www.jumia.com.eg/sp-privacy/"
-                        target="_blank" rel="noopener">ملفات تعريف الارتباط وسياسة
-            الخصوصية</a></p><button class="cls" aria-label="اغلاق"><span class="ic-bg -bg-wt"><svg viewBox="0 0 24 24"
-              class="ic -maxs" width="16" height="16">
-              <use xlink:href="https://www.jumia.com.eg/assets_he/images/i-icons.a66628fd.svg#close"></use>
-            </svg></span></button>
-            </div>
+
         </article>
         <main class="-bg-wt"><iframe id="sp-frame" name="sp-frame" class="-ban -vh100-hdr" src="./data.html" width="100%" scrolling="no"></iframe></main>
+        <style>
+            .comments-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                perspective: 800px;
+                /* تحديد النقطة الثابتة للعرض ثلاثي الأبعاد */
+            }
+            
+            .comment {
+                position: relative;
+                margin-bottom: 20px;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #f1f1f1;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                /* إضافة ظل للتعليق */
+                transform-style: preserve-3d;
+                /* الحفاظ على ثلاثية الأبعاد للعناصر */
+                transition: transform 0.3s ease;
+                /* تحريك العناصر بانتقال سلس */
+            }
+            
+            .comment:hover {
+                transform: translateY(-5px) rotateX(10deg);
+                /* تحريك التعليق عند تحويله */
+            }
+            
+            .comment:before {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                right: -10px;
+                bottom: -10px;
+                background-color: rgba(255, 255, 255, 0.2);
+                transform: rotateX(45deg) rotateY(-15deg);
+                /* تحويل العنصر قبل التعليق */
+                z-index: -1;
+            }
+        </style>
+        <div class="comments-section">
 
+
+            <div class="comment">
+                شكرا ليكم بجد كسبت ايفون 14😍
+            </div>
+
+            <div class="comment">
+                بجد مش مصدقة انا كسبت عربية 🥰
+            </div>
+
+            <div class="comment">
+                خسرت هحاول فيوم تاني 😞
+            </div>
+
+            <div class="comment">
+                انا كسبت 10.000 دولار هستلمهم ازاي ؟🥹
+            </div>
+
+            <div class="comment">
+                انا مكسبتش في امل اكسبت تاني ؟🙁
+            </div>
+
+            <div class="comment">
+                كسبت 5000 دولار هل ينفع اكسب تاني 😕
+            </div>
+            <div class="comment">
+                احلا جايزة ديه ولا ايه 😘
+            </div>
+        </div>
         <div id="pop"></div>
     </div>
     <script>
